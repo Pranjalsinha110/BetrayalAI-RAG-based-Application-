@@ -1,0 +1,10 @@
+.dev-text {
+  font-size: 16px;
+  white-space: nowrap; /* line break rokega */
+}
+
+@media (max-width: 576px) {
+  .dev-text {
+    font-size: 12px;
+  }
+}

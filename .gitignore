@@ -1,0 +1,20 @@
+# frontend
+betrayalai/node_modules/
+
+# backend
+venv/
+python backend/venv/
+
+# cache
+__pycache__/
+*.pyc
+
+# env
+.env
+
+# rag data
+vectorstore/
+
+# logs
+*.log
+xet/logs/
