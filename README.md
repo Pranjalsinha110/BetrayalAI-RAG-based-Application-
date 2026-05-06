@@ -9,6 +9,18 @@ The application is designed with a chat-based interface, allowing users to have 
 The project demonstrates the practical implementation of modern AI concepts such as semantic search, embeddings, vector databases (FAISS), and LLM integration, making it a strong real-world example of building intelligent applications using RAG architecture.
 
 ## 📊 Architecture / Flowchart
+# Data Flow Diagram (DFD)
+
+The Data Flow Diagram (DFD) illustrates how data moves through the system, starting from user input to the final generated response. It shows the process of extracting video transcripts, converting them into embeddings, and storing them in a vector database. When a query is asked, relevant information is retrieved and passed to the LLM for answer generation. This diagram helps in understanding the internal workflow and data processing steps of the RAG-based system.
+
 <p align="center">
   <img src="diagram BetrayalAI/Dfd.jpg" width="600"/>
+</p>
+
+# 🔄 Flowchart
+
+The flowchart represents the step-by-step working of the system, starting from user input of a YouTube URL and query. It shows how the transcript is extracted, processed into chunks, and converted into embeddings. These embeddings are stored in a vector database for efficient retrieval. Finally, the system fetches relevant context and generates an accurate response using an LLM.
+
+<p align="center">
+  <img src="diagram BetrayalAI/Flowchart.jpg" width="600"/>
 </p>
