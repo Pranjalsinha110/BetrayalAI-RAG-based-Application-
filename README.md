@@ -10,5 +10,5 @@ The project demonstrates the practical implementation of modern AI concepts such
 
 ## 📊 Architecture / Flowchart
 <p align="center">
-  <img src="" width="600"/>
+  <img src="diagram BetrayalAI/Dfd.jpg" width="600"/>
 </p>
