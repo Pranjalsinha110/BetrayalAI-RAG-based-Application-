@@ -77,3 +77,46 @@ BetrayalAI/
 │── .gitignore
 ```
 
+## ⚙️ Installation
+
+### Clone the Repository
+
+```bash id="18t2sw"
+git clone https://github.com/Pranjalsinha110/BetrayalAI-RAG-based-Application-.git
+cd BetrayalAI
+```
+
+### Backend Setup
+
+```bash id="l9w8eo"
+cd "python backend"
+
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### Frontend Setup
+
+```bash id="jlwmrf"
+cd betrayalai
+
+# Install dependencies
+npm install
+
+# Start the frontend server
+npm start
+```
+
+### Run the Backend Server
+
+```bash id="0m7j85"
+python youtube.py
+```
+
+
