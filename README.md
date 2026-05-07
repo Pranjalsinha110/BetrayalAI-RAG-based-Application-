@@ -135,7 +135,7 @@ npm start
 ### Run the Backend Server
 
 ```bash id="0m7j85"
-python youtube.py
+uvicorn api:app --reload
 ```
 
 
