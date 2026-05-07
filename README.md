@@ -76,6 +76,25 @@ BetrayalAI/
 │── README.md
 │── .gitignore
 ```
+## ✅ Advantages
+
+* Enables users to interact with YouTube videos in a conversational way.
+* Saves time by providing instant answers instead of watching the entire video.
+* Uses semantic search for accurate and context-aware responses.
+* Improves learning and revision efficiency from educational content.
+* Supports intelligent information retrieval using RAG architecture.
+* Provides a user-friendly chat-based interface for better user experience.
+* Reduces manual searching by automatically retrieving relevant video content.
+
+  ## ⚠️ Limitations
+
+* The system depends on the availability and accuracy of YouTube transcripts.
+* Videos without transcripts or with poor-quality subtitles may produce inaccurate answers.
+* Processing very long videos can increase response time.
+* The quality of generated answers depends on the performance of the embedding model and LLM.
+* Complex or ambiguous user queries may sometimes return incomplete responses.
+* Internet connection is required for transcript extraction and API-based services.
+* Currently supports single-video interaction at a time.
 
 ## ⚙️ Installation
 
