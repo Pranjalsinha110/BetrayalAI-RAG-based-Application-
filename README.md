@@ -151,5 +151,5 @@ uvicorn api:app --reload
 ```
 ## 🎥 Demo Video
 
-[▶️ Watch Demo Video](Diagrams/demo.mp4)
+[▶️ Watch Demo Video](diagram BetrayalAi/demo.mp4)
 
