@@ -34,6 +34,7 @@ The flowchart represents the step-by-step working of the system, starting from u
 5. Chat-like UI
 
 ## 🧠 How It Works :--
+```bash
 => The user provides a YouTube video URL.
 => The system extracts the transcript from the video.
 => The transcript is divided into smaller text chunks for efficient processing.
@@ -41,7 +42,7 @@ The flowchart represents the step-by-step working of the system, starting from u
 => The embeddings are stored in a FAISS vector database.
 => When the user asks a question, the system retrieves the most relevant chunks based on semantic similarity.
 => The retrieved context is passed to the Large Language Model (LLM) to generate an accurate and context-aware responsei
-
+```
 ## 🛠️ Tech Stack
 
 ### Frontend
@@ -67,12 +68,12 @@ The flowchart represents the step-by-step working of the system, starting from u
 * VS Code
 
 ## 📂 Project Structure
-
+```bash
 BetrayalAI/
 │── betrayalai/        # Frontend
 │── python backend/    # Backend
 │── Diagrams           # diagrams
 │── README.md
 │── .gitignore
-
+```
 
