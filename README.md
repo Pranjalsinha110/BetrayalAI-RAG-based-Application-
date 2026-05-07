@@ -26,9 +26,53 @@ The flowchart represents the step-by-step working of the system, starting from u
   <img src="diagram BetrayalAI/Flowchart.jpg" width="600"/>
 </p>
 
-## Features
+## 🚀Features
 1. Ask questions from any YouTube video
 2. Uses transcript extraction
 3. Vector database for semantic search
 4. LLM generates accurate answers
 5. Chat-like UI
+
+## 🧠 How It Works :--
+=> The user provides a YouTube video URL.
+=> The system extracts the transcript from the video.
+=> The transcript is divided into smaller text chunks for efficient processing.
+=> Embeddings are generated for each text chunk using an embedding model.
+=> The embeddings are stored in a FAISS vector database.
+=> When the user asks a question, the system retrieves the most relevant chunks based on semantic similarity.
+=> The retrieved context is passed to the Large Language Model (LLM) to generate an accurate and context-aware responsei
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React.js
+* Bootstrap 
+
+### Backend
+
+* Python
+*  FastAPI
+
+### AI & RAG Technologies
+
+* LangChain
+* FAISS Vector Database
+* HuggingFace Embeddings
+* YouTube Transcript API
+
+### Other Tools
+
+* Git & GitHub
+* VS Code
+
+## 📂 Project Structure
+
+BetrayalAI/
+│── betrayalai/        # Frontend
+│── python backend/    # Backend
+│── Diagrams           # diagrams
+│── README.md
+│── .gitignore
+
+
