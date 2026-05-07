@@ -96,6 +96,18 @@ BetrayalAI/
 * Internet connection is required for transcript extraction and API-based services.
 * Currently supports single-video interaction at a time.
 
+## 🔮 Future Scope
+
+* Support for multiple YouTube videos simultaneously.
+* Integration of voice-based interaction for a more interactive experience.
+* Real-time streaming responses for faster answer generation.
+* Addition of multilingual support for global accessibility.
+* User authentication and chat history management.
+* Advanced summarization and note-generation features.
+* Deployment as a scalable web application or mobile application.
+* Integration with other platforms such as PDFs, websites, and documents for broader RAG-based search capabilities.
+
+
 ## ⚙️ Installation
 
 ### Clone the Repository
