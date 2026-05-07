@@ -1,4 +1,4 @@
-## BetrayalAI (RAG Based Application)
+# BetrayalAI (RAG Based Application)
 ## 📌 Description
 
 This project is an AI-powered Question Answering system built using a Retrieval-Augmented Generation (RAG) pipeline that enables users to interact with any YouTube video in a conversational manner.
@@ -25,3 +25,10 @@ The flowchart represents the step-by-step working of the system, starting from u
 <p align="center">
   <img src="diagram BetrayalAI/Flowchart.jpg" width="600"/>
 </p>
+
+## Features
+1. Ask questions from any YouTube video
+2. Uses transcript extraction
+3. Vector database for semantic search
+4. LLM generates accurate answers
+5. Chat-like UI
