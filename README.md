@@ -149,5 +149,7 @@ npm start
 ```bash id="0m7j85"
 uvicorn api:app --reload
 ```
+## 🎥 Demo Video
 
+[▶️ Watch Demo Video](Diagrams/demo.mp4)
 
